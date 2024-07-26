@@ -51,7 +51,8 @@ The server responds to the following endpoints:
 
 ## Future Improvements
 - Implement SSL/TLS support
-- Implementing the producer/consumer method
+- Implementing the producer/consumer concurrency model
  
 ## Contributing
 Contributions are welcome! Please feel free to submit a Pull Request.
+
