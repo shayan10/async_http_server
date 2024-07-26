@@ -1,7 +1,22 @@
-# Epoll-based HTTP Server
+# Async HTTP Server with C
 
 ## Overview
 This project implements a high-performance HTTP server using the epoll I/O event notification mechanism. The server is capable of handling multiple concurrent connections efficiently, supporting basic HTTP methods and file serving capabilities.
+
+## Goal
+
+Through my personal projects and internships, I have had the opportunity to experiment with backend frameworks such as Express.js, FastAPI, and others. The goal of this project was to uncover how these HTTP servers work behind the scenes, how computer networks interface with the Operating System, and how Asynchronous HTTP Servers such as ones with Express.js achieve high performance and concurrency. Specifically, this project aimed to:
+
+1. Gain a deep understanding of the low-level networking mechanisms in Unix-like operating systems.
+2. Explore the epoll I/O event notification system and its role in efficient server design.
+3. Implement a basic HTTP server from scratch without relying on high-level frameworks.
+4. Understand the challenges and considerations in handling concurrent connections.
+5. Learn about memory management and buffer handling in network programming.
+6. Investigate how file I/O operations integrate with network servers.
+7. Implement basic HTTP protocol handling, including parsing requests and forming responses.
+8. Explore performance optimization techniques for high-concurrency scenarios.
+
+By building this server from the ground up, I sought to bridge the gap between high-level web frameworks and the underlying system calls and mechanisms that enable their functionality. This project has provided invaluable insights into the intricacies of network programming and the design considerations for scalable server applications.
 
 ## Key Features
 - Utilizes epoll for efficient I/O multiplexing
@@ -12,7 +27,6 @@ This project implements a high-performance HTTP server using the epoll I/O event
 - Maintains server statistics
 
 ## Skills Demonstrated
-- Systems programming in C
 - Network programming (sockets, HTTP protocol)
 - Concurrent programming using epoll
 - File I/O operations
@@ -37,9 +51,7 @@ The server responds to the following endpoints:
 
 ## Future Improvements
 - Implement SSL/TLS support
-- Add support for additional HTTP methods
-- Implement a thread pool for handling requests
-- Enhance logging and error reporting
-
+- Implementing the producer/consumer method
+ 
 ## Contributing
 Contributions are welcome! Please feel free to submit a Pull Request.
