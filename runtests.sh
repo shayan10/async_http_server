@@ -6,7 +6,7 @@
 #          ./runtests.sh 01-connect 01  // runs tests/01-connect/01.sh
 #          ./runtests.sh 01 01          // runs tests/01-connect/01.sh
 
-EXEC=hw4
+EXEC=http
 DUMMY=test
 OUTPUT=output
 TEST_DIR=tests
